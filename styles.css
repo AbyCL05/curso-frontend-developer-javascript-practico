@@ -127,8 +127,8 @@ body {
     position: absolute;
     top: 60px;
     left: 0;
-    padding: 24px;
-    width: 100%;
+    padding-left: 24px;
+    width: calc(100% - 24px);
   }
   .mobile-menu a {
     text-decoration: none;
@@ -236,6 +236,9 @@ aside {
   height: 50px;
 }
 /* ProductDetail*/
+#productDetail {
+  background-color: var(--white);
+}
 .product-detail-close {
   background: var(--white);
   width: 14px;
@@ -347,6 +350,9 @@ aside {
   .product-card img {
     width: 140px;
     height: 140px;
+  }
+  #productDetail {
+    width: 100%;
   }
 }
 
